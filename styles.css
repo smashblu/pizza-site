@@ -1,5 +1,5 @@
-img {
-  align: center;
+.topnav img {
+  align-items: center;
   width: 10%;
   height: 10%;
 }
@@ -7,6 +7,7 @@ img {
 .topnav {
     background-color: #049fd8;
     overflow: hidden;
+	text-align: right;
 }
 
 .topnav a {
