@@ -1,7 +1,9 @@
 .topnav img {
-  align-items: center;
-  width: 10%;
-  height: 10%;
+  width: 32px;
+  height: 32px; 
+  position: absolute;
+  left: 15px;
+  top: 15px;
 }
 
 .topnav {
@@ -11,7 +13,6 @@
 }
 
 .topnav a {
-    float: left;
     color: #000;
     text-align: center;
     padding: 14px 16px;
@@ -36,7 +37,7 @@ nav ul {
 }
 
 nav li {
-    float: left;
+    float: right;
 }
 
 nav li a {
