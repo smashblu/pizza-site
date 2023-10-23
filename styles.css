@@ -29,18 +29,18 @@
     color: white;
 }
 
-nav ul {
+.topnav ul {
     list-style-type: none; 
     margin: 0; 
     padding: 0;
     overflow: hidden;
 }
 
-nav li {
+.topnav li {
     float: right;
 }
 
-nav li a {
+.topnav li a {
     display: block;
     padding: 8px;
 }
