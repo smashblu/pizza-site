@@ -1,0 +1,46 @@
+.topnav img {
+  width: 32px;
+  height: 32px; 
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.topnav {
+    background-color: #049fd8;
+    overflow: hidden;
+	text-align: right;
+}
+
+.topnav a {
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #000080;
+}
+
+.topnav a.active {
+    background-color: #000080;
+    color: white;
+}
+
+.topnav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+    overflow: hidden;
+}
+
+.topnav li {
+    float: right;
+}
+
+.topnav li a {
+    display: block;
+    padding: 8px;
+}
