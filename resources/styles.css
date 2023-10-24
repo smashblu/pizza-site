@@ -34,10 +34,11 @@
     margin: 0; 
     padding: 0;
     overflow: hidden;
+    float: right;
 }
 
 .topnav li {
-    float: right;
+    float: left;
 }
 
 .topnav li a {
