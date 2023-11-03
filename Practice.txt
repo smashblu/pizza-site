@@ -1,3 +1,0 @@
-This is a practice file.
-An additional line is added.
-New line to test 'git clone' command on another device.
