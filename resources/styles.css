@@ -74,7 +74,21 @@
     backface-visibility: hidden;
 }
 
-.flip-box-front {
+/* .flip-box-front {
+    background-image: url(../images/cheese_pizza.png);
+    background-color: #049fd8; 
+    background-position: center;
+    background-size: cover;
+    color: black;
+} */
+
+.flip-box-back {
+    background-color: #0000ff;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.cheese .flip-box-front {
     background-image: url(../images/cheese_pizza.png);
     background-color: #049fd8; 
     background-position: center;
@@ -82,8 +96,10 @@
     color: black;
 }
 
-.flip-box-back {
-    background-color: #0000ff;
-    color: white;
-    transform: rotateY(180deg);
+.pepperoni .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+    background-color: #049fd8; 
+    background-position: center;
+    background-size: cover;
+    color: black;
 }
