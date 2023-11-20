@@ -1,15 +1,18 @@
+.topnav {
+    background-color: #049fd8;
+    overflow: hidden;
+	text-align: right;
+    margin: -10px;
+    padding: 20px 20px;
+    box-shadow: 0 5px 20px 0;
+}
+
 .topnav img {
   width: 32px;
   height: 32px; 
   position: absolute;
   left: 15px;
   top: 15px;
-}
-
-.topnav {
-    background-color: #049fd8;
-    overflow: hidden;
-	text-align: right;
 }
 
 .topnav a {
@@ -45,6 +48,10 @@
     display: block;
     padding: 8px;
 }
+
+ .menupics {
+    padding-top: 30px;
+ }
 
 .flip-box {
     background-color: transparent;
@@ -96,12 +103,17 @@
     color: black;
 }
 
+.abouttext {
+    padding-top: 30px; 
+}
+
 .footer {
    background-color: #8ea2a4;   
    padding-left: 20%;
    overflow: hidden;
    color: orange;
    font-size: 20px;
+   margin: -10px;
 }
 
 .footer td {
@@ -113,4 +125,11 @@
     text-align: left;
     text-decoration: none;
     font-size: 14px;
+}
+
+.footer h3 {
+    color: #0000ff;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
 }
