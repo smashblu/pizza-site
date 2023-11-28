@@ -1,4 +1,4 @@
-# Danny's Pizza
+# :orange_heart: Another Little Pizza My Heart :orange_heart:
 
 ## Table of contents
 
