@@ -1,4 +1,4 @@
-.topnav {
+.top-nav {
     background-color: #049fd8;
     overflow: hidden;
 	text-align: right;
@@ -7,7 +7,7 @@
     box-shadow: 0 5px 20px 0;
 }
 
-.topnav img {
+.top-nav img {
   width: 32px;
   height: 32px; 
   position: absolute;
@@ -15,7 +15,7 @@
   top: 15px;
 }
 
-.topnav a {
+.top-nav a {
     color: #000;
     text-align: center;
     padding: 14px 16px;
@@ -23,16 +23,16 @@
     font-size: 17px;
 }
 
-.topnav a:hover {
+.top-nav a:hover {
     background-color: #000080;
 }
 
-.topnav a.active {
+.top-nav a.active {
     background-color: #000080;
     color: white;
 }
 
-.topnav ul {
+.top-nav ul {
     list-style-type: none; 
     margin: 0; 
     padding: 0;
@@ -40,16 +40,16 @@
     float: right;
 }
 
-.topnav li {
+.top-nav li {
     float: left;
 }
 
-.topnav li a {
+.top-nav li a {
     display: block;
     padding: 8px;
 }
 
- .menupics {
+ .menu-pics {
     padding-top: 30px;
  }
 
@@ -103,7 +103,7 @@
     color: black;
 }
 
-.abouttext {
+.about-text {
     padding-top: 30px; 
 }
 
