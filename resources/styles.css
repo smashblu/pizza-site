@@ -106,7 +106,13 @@
 .about-text {
     padding-top: 30px; 
     font-family: georgia, serif;
-    font-size: x-large;
+    font-size: large;
+}
+
+.about-text h1 {
+    color: navy;
+    font-size: xx-large;
+    font-style: bold;
 }
 
 .footer {
