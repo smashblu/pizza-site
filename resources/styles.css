@@ -1,3 +1,12 @@
+h1 {
+   font-size: xx-large; 
+   color: #000080;
+}
+
+h2 {
+   font-size: x-large; 
+}
+
 .top-nav {
     background-color: #049fd8;
     overflow: hidden;
@@ -98,20 +107,31 @@
     transform: rotateY(180deg);
 }
 
-.cheese .flip-box-front {
-    background-image: url(../images/cheese_pizza.png);
+.flip-box-front {
     background-color: #049fd8; 
     background-position: center;
     background-size: cover;
     color: black;
 }
 
+.cheese .flip-box-front {
+    background-image: url(../images/cheese_pizza.png);
+}
+
 .pepperoni .flip-box-front {
     background-image: url(../images/pepperoni_pizza.png);
-    background-color: #049fd8; 
-    background-position: center;
-    background-size: cover;
-    color: black;
+}
+
+.olivemushroom .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+}
+
+.sausage .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+}
+
+.nashville .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
 }
 
 .about-text {
