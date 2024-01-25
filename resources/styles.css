@@ -122,6 +122,10 @@ h2 {
     background-image: url(../images/pepperoni_pizza.png);
 }
 
+.onion-pepper .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+}
+
 .olive-mushroom .flip-box-front {
     background-image: url(../images/pepperoni_pizza.png);
 }
@@ -130,7 +134,15 @@ h2 {
     background-image: url(../images/pepperoni_pizza.png);
 }
 
+.veggie .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+}
+
 .nashville .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+}
+
+.rotating .flip-box-front {
     background-image: url(../images/pepperoni_pizza.png);
 }
 
