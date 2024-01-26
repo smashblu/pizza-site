@@ -58,6 +58,16 @@ h2 {
     padding: 8px;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .main-logo {
+    padding-top: 102px;
+}
+
 .main-logo {
     padding-top: 30px;
     display: block;
