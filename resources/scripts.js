@@ -8,6 +8,6 @@ function sticky-header() {
 }
 
 // Variables and execution for "sticky-header" function
-var header = document.getElementById("nav-bar");
-var sticky = header.offsetTop;
-window.onscoll = function() {sticky-header()};
+const header = document.getElementById("nav-bar");
+const sticky = header.offsetTop;
+window.onscroll = function() {sticky-header()};
