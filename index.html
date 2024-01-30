@@ -5,21 +5,28 @@
 <title>Danny's Pizza</title>
 <link rel="stylesheet" href="resources/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="resources/scripts.js"></script>
 </head>
 <body>
-    <div class="top-nav">
+    <div class="top-nav" id="nav-bar">
         <nav>
             <ul>
             <li><a class="active" href="#menu">Menu</a></li>
             <li><a href="pages/about.html">About</a></li>
             <li><a href="#contact">Contact Us</a></li>
-            <li><a class="logo"><img src="images/logo.jpg" alt="Another Little Pizza My Heart Logo"></img></a></li>
+            <li><picture class="small-logo"><img src="images/logo.jpg" alt="Another Little Pizza My Heart Logo"></picture></li>
             </ul>
         </nav>
     </div>
+    <div class="main-logo">
+        <picture><img src="images/logo.jpg" alt="Another Little Pizza My Heart Logo"></picture>
+    </div>
     <table class="menu-pics" id="menu">
         <tr>
-            <td><h2>Our Pizzas</h2></td>
+            <td><h1>Our Pizzas</h1></td>
+        </tr>
+        <tr>
+            <td><h2>Classic Pizzas</h2></td>
         </tr>
         <tr>
             <td class="cheese">
@@ -29,7 +36,86 @@
                             <h2>Cheese Pizza</h2>
                         </div>
                         <div class="flip-box-back">
-                            <h2>Description of cheese pizza</h2>
+                            <h2>This is the classic cheese pizza you remember from Fridays at school or maybe birthday pizza parties. The cheese has just the right amount of char.</h2>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td class="pepperoni">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <h2>Pepperoni Pizza</h2>
+                        </div>
+                        <div class="flip-box-back">
+                            <h2>Another classic and the most popular pizza in the world. We do our best to make this classic enjoyable.</h2>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td class="onion-pepper">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <h2>Onions & Peppers Pizza</h2>
+                        </div>
+                        <div class="flip-box-back">
+                            <h2>A good veggie option with some additional flavor. Instead of bell peppers, we use jalapeños for an extra zip.</h2>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="olive-mushroom">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <h2>Olive & Mushroom Pizza</h2>
+                        </div>
+                        <div class="flip-box-back">
+                            <h2>Two toppings that may be controversial but work very well together. We do our best to not overload toppings for a precise taste.</h2>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td class="sausage">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <h2>Sausage Pizza</h2>
+                        </div>
+                        <div class="flip-box-back">
+                            <h2>For those who like the spice of sausage rather than pepperoni, this one is for you.</h2>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td class="veggie">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <h2>Veggie Delight Pizza</h2>
+                        </div>
+                        <div class="flip-box-back">
+                            <h2>This one changes depending on the season. We use a small medley of seasonal veggies.</h2>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Adventurous Pizzas</h2></td>
+        </tr>
+        <tr>
+            <td class="nashville">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <h2>Nashville Hot Pizza</h2>
+                        </div>
+                        <div class="flip-box-back">
+                            <h2>Out of the sandwich and onto a pizza. Cayenne pepper-seasoned fried chicken bites with a honey glaze.</h2>
                         </div>
                     </div>
                 </div>
@@ -46,28 +132,14 @@
                     </div>
                 </div>
             </td>
-        </tr>
-        <tr>
-            <td class="cheese">
+            <td class="rotating">
                 <div class="flip-box">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
-                            <h2>Cheese Pizza</h2>
+                            <h2>Rotating Selection</h2>
                         </div>
                         <div class="flip-box-back">
-                            <h2>Description of cheese pizza</h2>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td class="pepperoni">
-                <div class="flip-box">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <h2>Pepperoni Pizza</h2>
-                        </div>
-                        <div class="flip-box-back">
-                            <h2>Description of pepperoni pizza</h2>
+                            <h2>We are always coming up with new ideas. You'll likely see a new pizza every month.</h2>
                         </div>
                     </div>
                 </div>
@@ -83,13 +155,13 @@
                 </td>
                 <td></td>
                 <td>
-                    <i class="fa fa-question-circle"></i><p>Test 1</p>
-                    <p>Test 2</p>
-                    <p>Test 3</p>
+                    <i class="fa fa-question-circle"></i><p><a href="pages/about.html">About Us</a></p>
+                    <p>Phone: (909)697-7069</p>
+                    <p>Email: <a href="lukeolfman@gmail.com">lukeolfman@gmail.com</a></p>
                 </td>
             </tr>
         </table>
-        <h3>© Luke Olfman, 2023</h3>
+        <h2>© Luke Olfman, 2023</h2>
     </div>
 </body>
 </html>

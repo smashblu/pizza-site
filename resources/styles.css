@@ -1,3 +1,12 @@
+h1 {
+   font-size: xx-large; 
+   color: #000080;
+}
+
+h2 {
+   font-size: x-large; 
+}
+
 .top-nav {
     background-color: #049fd8;
     overflow: hidden;
@@ -5,6 +14,9 @@
     margin: -10px;
     padding: 20px 20px;
     box-shadow: 0 5px 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .top-nav img {
@@ -49,8 +61,19 @@
     padding: 8px;
 }
 
+.main-logo {
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+}
+
  .menu-pics {
     padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
  }
 
 .flip-box {
@@ -87,24 +110,57 @@
     transform: rotateY(180deg);
 }
 
-.cheese .flip-box-front {
-    background-image: url(../images/cheese_pizza.png);
+.flip-box-front {
     background-color: #049fd8; 
     background-position: center;
     background-size: cover;
     color: black;
+}
+
+.cheese .flip-box-front {
+    background-image: url(../images/cheese_pizza.png);
 }
 
 .pepperoni .flip-box-front {
     background-image: url(../images/pepperoni_pizza.png);
-    background-color: #049fd8; 
-    background-position: center;
-    background-size: cover;
-    color: black;
+}
+
+.onion-pepper .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+}
+
+.olive-mushroom .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+}
+
+.sausage .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+}
+
+.veggie .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+}
+
+.nashville .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
+}
+
+.rotating .flip-box-front {
+    background-image: url(../images/pepperoni_pizza.png);
 }
 
 .about-text {
     padding-top: 30px; 
+    padding-left: 10%;
+    font-family: georgia, serif;
+    font-size: large;
+    max-width: 50%;
+}
+
+.about-text h1 {
+    color: navy;
+    font-size: xx-large;
+    font-style: bold;
 }
 
 .footer {
